@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exerc&#237;cio 5"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 03:01:47 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NzsyMDI2LTAzLTE4OyIwMjo0NDoxNCAiOzI0MzI="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NzsyMDI2LTAzLTE4OyIwMzowMTo0NyAiOzE7MjU0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nota1" type="Real" array="False" size=""/>
+            <declare name="Nota2" type="Real" array="False" size=""/>
+            <declare name="Soma" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite sua primeira nota:&quot;" newline="True"/>
+            <input variable="Nota1"/>
+            <output expression="&quot;Sua primeira nota foi: &quot; &amp; Nota1" newline="True"/>
+            <output expression="&quot;Digite sua segunda nota:&quot;" newline="True"/>
+            <input variable="Nota2"/>
+            <output expression="&quot;Sua segunda nota foi: &quot; &amp; Nota2" newline="True"/>
+            <assign variable="Soma" expression="(Nota1 + Nota2) /2"/>
+            <output expression="&quot;Sua m&#233;dia equivale a: &quot; &amp; Soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

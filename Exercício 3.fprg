@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exerc&#237;cio 3"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 02:31:26 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NzsyMDI2LTAzLTE4OyIwMjoyNjo1MSAiOzI0MzM="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NzsyMDI2LTAzLTE4OyIwMjozMToyNiAiOzE7MjUzOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Idade" type="Integer" array="False" size=""/>
+            <assign variable="Idade" expression="0"/>
+            <output expression="&quot;Digite sua idade:&quot;" newline="True"/>
+            <input variable="Idade"/>
+            <if expression="Idade&lt; 18">
+                <then>
+                    <output expression="&quot;Menor de idade&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Maior de idade&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
